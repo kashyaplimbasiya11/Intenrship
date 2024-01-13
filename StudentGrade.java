@@ -36,19 +36,18 @@ public class StudentGrade {
     }
     public static char printGrade(double percentage) {
         if (percentage >= 90) {
-            return 'A';
+            return 'a';
         } else if (percentage >= 80) {
-            return 'B';
+            return 'b';
         } else if (percentage >= 70) {
-            return 'C';
+            return 'c';
         } else if (percentage >= 60) {
-            return 'D';
+            return 'd';
         } else {
             System.out.println("you are fail");
-            return 'F';   
+              return 'f';
          }
       }
-
     public static void print(int totalMarks, double avgPercentage, char grade) {
         System.out.println("Your Total Marks: " + totalMarks);
         System.out.println("Your percantage Percentage: " + avgPercentage + "%");
